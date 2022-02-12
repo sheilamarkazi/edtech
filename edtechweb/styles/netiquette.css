@@ -1,7 +1,6 @@
 body {
     font-family: "Lucida Console", monospace;
     line-height: 180%;
-    width=100%;
     font-size: 1em;
     background-color: #f0f3ff;
     /*3f5fc*/
@@ -55,9 +54,6 @@ h1 {
     color: #1A1423;
 }
 
-h3 {
-    font-size: x-large;
-}
 
 li {
     margin-bottom: 1em;
