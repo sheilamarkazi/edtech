@@ -2,7 +2,7 @@ body {
     font-family: "Lucida Console", monospace;
     line-height: 180%;
     font-size: 1em;
-    background-color: #f0f3ff;
+    background-color: #fffff0;
     /*3f5fc*/
 
 
@@ -23,6 +23,7 @@ header {
     padding: 3vw;
     margin: 3vw;
     text-align: center;
+    background-color: #f0f3ff;
 }
 
 section {
@@ -32,8 +33,7 @@ section {
     border-radius: 20px;
     padding: 3vw;
     margin: 3vw;
-    /* display: flex;*/
-
+    background-color: #f0f3ff;
 }
 
 
@@ -47,11 +47,19 @@ aside {
     margin: 2vw;
     height: fit-content;
     max-width: 40%;
+    background-color: #fffff0;
+
 }
 
 h1 {
     font-family: Monaco, monospace;
     color: #1A1423;
+}
+
+#highlight {
+    background-color: #e3f886;
+    /*ccf886*/
+    width: fit-content;
 }
 
 
