@@ -34,6 +34,8 @@ section {
     padding: 3vw;
     margin: 3vw;
     background-color: #f0f3ff;
+    float: left;
+    clear: left;
 }
 
 
@@ -54,12 +56,14 @@ aside {
 h1 {
     font-family: Monaco, monospace;
     color: #1A1423;
+    font-size: 2.7rem;
 }
 
 #highlight {
     background-color: #e3f886;
     /*ccf886*/
     width: fit-content;
+    padding: .5vw;
 }
 
 
@@ -77,4 +81,5 @@ footer {
     padding: 2vh 0vh 1vh 0vh;
     text-align: center;
     font-size: .8em;
+    clear: both;
 }
