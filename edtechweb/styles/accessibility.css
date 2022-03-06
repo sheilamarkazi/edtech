@@ -6,6 +6,7 @@ body {
     color: #1A1423;
     /*3f5fc*/
     padding: 1vw;
+
 }
 
 
@@ -18,7 +19,7 @@ header {
     padding: 3vw;
     margin: 3vw;
     text-align: center;
-    background-color: #ffedeb;
+    background-color: #fff0ef;
     /* nice color, save for another opportunity #e4eaff*/
     ;
 }
@@ -29,11 +30,11 @@ a {
 }
 
 a:link {
-    color: rgb(0, 138, 0);
+    color: rgb(0, 112, 0);
 }
 
 a:visited {
-    color: rgb(0, 73, 0);
+    color: rgb(0, 51, 0);
 }
 
 a:focus {
