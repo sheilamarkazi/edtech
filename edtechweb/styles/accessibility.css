@@ -1,0 +1,135 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 180%;
+    font-size: 1em;
+    background-color: white;
+    color: #1A1423;
+    /*3f5fc*/
+}
+
+#container {
+    margin: 6vw 3vw;
+}
+
+
+
+header {
+    border-style: none;
+    border-color: #8787ea;
+    border-width: thick;
+    border-radius: 0px 50px;
+    padding: 3vw;
+    margin: 3vw;
+    text-align: center;
+    background-color: #ffedeb;
+    /* nice color, save for another opportunity #e4eaff*/
+    ;
+}
+
+a {
+    text-decoration: underline;
+
+}
+
+a:link {
+    color: rgb(0, 138, 0);
+}
+
+a:visited {
+    color: rgb(0, 73, 0);
+}
+
+a:focus {
+    color: rgb(17, 0, 167);
+}
+
+a:hover {
+    color: rgb(255, 55, 155);
+}
+
+a:active {
+    color: rgb(115, 55, 255);
+}
+
+
+
+section {
+    border-style: none;
+    border-width: thick;
+    border-radius: 50px;
+    padding: 3vw;
+    margin: 3vw;
+    background-color: #ffedeb;
+    text-align: left;
+}
+
+img.pic {
+    float: right;
+    width: 30vw;
+    height: auto;
+    margin: 0px 15px 15px 45px;
+    border-radius: 10px;
+
+}
+
+
+
+aside {
+    float: right;
+    border-style: double;
+    border-color: #8787ea;
+    border-width: thick;
+    border-radius: 20px;
+    padding: 2vw;
+    margin: 2vw;
+    height: fit-content;
+    max-width: 40%;
+    background-color: #fffff0;
+
+}
+
+h1 {
+    color: #1A1423;
+    font-size: 2.7rem;
+}
+
+#highlight {
+    background-color: #e3f886;
+    /*ccf886*/
+    width: fit-content;
+    padding: .5vw;
+}
+
+
+li {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+a:hover {
+    background-color: white;
+}
+
+a:active {
+    background-color: black;
+}
+
+a:visited {
+    background-color: white;
+}
+
+footer {
+    padding: 2vh 0vh 1vh 0vh;
+    text-align: center;
+    font-size: .8em;
+    clear: both;
+}
