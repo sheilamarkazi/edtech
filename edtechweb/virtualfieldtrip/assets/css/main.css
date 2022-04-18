@@ -198,10 +198,13 @@ input, select, textarea {
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
-			width: max-content;
+			/*width: max-content;*/
+			width:100%;
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
 		}
+
+
 
 	h1 {
 		font-size: 2.25rem;
@@ -244,6 +247,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 	sub {
 		font-size: 0.8rem;
@@ -1353,6 +1357,7 @@ input, select, textarea {
 			display: -ms-flex;
 			display: flex;
 			margin-bottom: 0;
+			
 			list-style: none;
 			padding-left: 0;
 			border: solid 1px #ffffff;
@@ -1362,6 +1367,7 @@ input, select, textarea {
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
+				min-width: 25%;
 			}
 
 				#header nav ul li:first-child {
@@ -1371,13 +1377,16 @@ input, select, textarea {
 				#header nav ul li a {
 					display: block;
 					min-width: 7.5rem;
+					
 					/*height: 2.75rem;*/
 					line-height: 1.75rem;
 					padding: 2rem 1rem;/*0 1.25rem 0 1.45rem;*/
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+					font-size: 1rem;
 					border-bottom: 0;
+					font-weight: 700;
+
 				}
 
 					#header nav ul li a:hover {
