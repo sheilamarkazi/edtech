@@ -1300,8 +1300,8 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			padding-top:5.5px;
-			padding-right:7px;
+			padding-top:7.5px;
+			padding-right:8px;
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
@@ -1462,7 +1462,7 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				padding-top:6px;
+				padding-top:6.5px;
 				padding-right:5px;
 				width: 4.75rem;
 				height: 4.75rem;
